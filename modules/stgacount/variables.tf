@@ -1,0 +1,2 @@
+# variable "stgacount_name" {
+# }
