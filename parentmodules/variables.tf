@@ -63,5 +63,5 @@ variable "vnet_name" {
 }
 
 variable "ipname" {
-  
+
 }

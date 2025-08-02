@@ -1,8 +1,8 @@
 
 module "resourceg" {
-  source = "../modules/resourcegrp"
-    resource_group_name = "rj008"
-    location            = "Central India"
+  source              = "../modules/resourcegrp"
+  resource_group_name = "rj008"
+  location            = "Central India"
 }
 
 # module "stgacount_name" {
@@ -10,7 +10,7 @@ module "resourceg" {
 #     resource_group_name = "rj008"
 #     location            = "Central India"
 #     stgacount_name      = "ramustorageaccount"
-    
+
 # }
 
 
@@ -67,7 +67,7 @@ module "resourceg" {
 #   location               = "Central India"
 #   adminLogin             = "sqladmin"
 #   adminpw                = "Ramuniwas@1234"
-  
+
 # }
 
 # module "mssql_database" {
@@ -94,7 +94,7 @@ module "resourceg" {
 #   source     = "../modules/keyvault_secret"
 #   dummyuname = "sqladmin"
 #   dummyPassword = "Ramuniwas@1234"
-  
+
 # }
 
 # module "passwordSecret"{
@@ -102,5 +102,5 @@ module "resourceg" {
 #   source     = "../modules/keyvault_secret"
 #   dummyuname = "sqladmin"
 #   dummyPassword = "Ramuniwas@1234"
-  
+
 # }
